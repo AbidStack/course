@@ -1,0 +1,37 @@
+Date: 25/11/2023
+Topic: Git & GitHub
+
+Summary of Today's topic
+
+//Download link of Github Command Line Interface (CLI)
+https://cli.github.com/
+
+//Command for logging in GitHub from CLI
+$git auth login
+
+//Command for creating a github repository from CLI (Command Line Interface)
+$gh repo create "repo-name"
+
+//Changing Directory to Current Location
+$cd "current/location"
+
+//Initializing a folder as git
+$it init
+
+//Adding all files to git
+$git add -A
+
+//checking current status of git folder
+$git status
+
+//Commiting folder with a message
+$git commit -m "sending to github"
+
+//Setting up repository remote location
+$git remote add origin "https://github.com/username/repo.git"
+
+//Merging to main branch
+$git branch -M main
+
+//Pushing folder to GitHub repository
+$git push -u "origin" "branch"
