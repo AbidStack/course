@@ -30,6 +30,9 @@ $git commit -m "sending to github"
 //Setting up repository remote location
 $git remote add origin "https://github.com/username/repo.git"
 
+//To check branch name of remote repository
+$git ls-remote --symref https://github.com/AbidStack/course.git HEAD
+
 //Merging to main branch
 $git branch -M main
 
